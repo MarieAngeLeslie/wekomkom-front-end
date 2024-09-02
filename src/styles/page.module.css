@@ -1,0 +1,71 @@
+.header {
+  background-color: red;
+  height: 674px;
+  margin: 0 33px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end
+}
+
+.first-side,
+.third-side {
+  background-color: rgb(0, 238, 255);
+  height: 30.625rem;
+  width: 300px;
+}
+
+.main-side {
+  background-color: orange;
+  width: 70%;
+}
+
+.first-part {
+  width: 90%;
+  background: rgb(26, 255, 0);
+  margin: 0 auto;
+}
+
+.div1,
+.div2,
+.div3 {
+  width: 15.625rem;
+  height: 17.625rem;
+}
+
+.div {
+  display: flex;
+  background: #00000069;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.div1 {
+  background-color: rgb(195, 0, 255);
+  margin-right: 20px;
+}
+
+.div2 {
+  background-color: rgb(0, 55, 255);
+  margin-right: 20px;
+
+}
+
+.div3 {
+  background-color: rgb(255, 0, 174);
+  /* margin-right: 32px; */
+
+}
+
+
+
+
+
+/* .body {
+  background-image: url('../images/background-vector.png');
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-color: red;
+  background-attachment: fixed;
+  background-size: cover;
+} */
