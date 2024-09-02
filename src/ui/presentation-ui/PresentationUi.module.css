@@ -1,0 +1,29 @@
+.base-ui-bloc {
+    height: 100%;
+    width: 100%;
+    padding: 33px 16px;
+    background: #E7EBEF;
+}
+
+.base-ui-bloc .presentation-ui-bloc {
+    margin-bottom: 32px;
+}
+
+.base-ui-bloc .contractor-number {
+    background: linear-gradient(90deg, rgba(9, 87, 165, 0.851) 20%, rgba(88, 178, 36, 0.84) 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 12px;
+    line-height: 2.25rem;
+}
+
+.base-ui-bloc .contractor-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+    color: #303B4C;
+}

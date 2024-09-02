@@ -1,0 +1,12 @@
+.btn-style {
+    padding: 0.75rem 1.5rem;
+    border-radius: 20px;
+    background: #0958A5;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    display: inline-block;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
