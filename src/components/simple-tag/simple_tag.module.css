@@ -1,0 +1,16 @@
+.tag-main-bloc {
+    height: 100%;
+    width: 100%;
+    background: #f3f6fb;
+    padding: 10px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+}
+
+.tag-desc {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.65rem;
+    color: #162843;
+}

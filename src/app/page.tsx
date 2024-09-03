@@ -5,13 +5,24 @@ import { PlayIcon } from '../images/svg/svgIcon';
 import AttractivePresentation from '../components/attractive-presentation/AttractivePresentation'
 import PresentationUi from '../ui/presentation-ui/PresentationUi';
 import CountAccomplishment from '../components/count-accomplishment/CountAccomplishment';
+import AvailableOffer from '../components/available-offer-component/AvailableOffer';
+import PubUI from '../components/pub-ui/PubUI';
 
 export default function Home() {
   return (
     <>
       <header className={styles.header}>
         <div className={styles["first-side"]}>
-          <div className={styles["first-bloc"]}></div>
+          <div className={styles["first-bloc"]}>
+            <AvailableOffer
+              tagTitle={"Bon d'accompagnement"}
+              mainImageSrc={"/offer-img.png"}
+              title={"Définir son offre commercial"}
+              description={"Objectifs : Attirer des clients potentiels. Convaincre les clients d'acheter vos produits"}
+              price={"550 000 FCFA"}
+            />
+
+          </div>
           <div className={styles["second-bloc"]}>
             <CountAccomplishment number={45} desc={"Offres d’accompagnement"} />
           </div>
@@ -29,19 +40,31 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={styles["div"]}>
-            <div className={styles["div1"]}>
+          <div className={styles["presentation"]}>
+            <div className={styles["presentation_1"]}>
               <AttractivePresentation imageSrc={"/img1.png"} alt="Nice Pitch" />
             </div>
-            <div className={styles["div2"]}>
+            <div className={styles["presentation_2"]}>
               <PresentationUi />
             </div>
-            <div className={styles["div3"]}>
+            <div className={styles["presentation_3"]}>
               <AttractivePresentation imageSrc={"/img2.png"} alt="Nice Pitch" />
             </div>
           </div>
         </div>
-        <div className={styles["third-side"]}></div>
+        <div className={styles["third-side"]}>
+          <div className={styles["first-bloc"]}>
+            <PubUI
+              tagTitle={"Bon d'accompagnement"}
+              mainImageSrc={"/pub-img.jpg"}
+              title={"Trouvez l'Opportunité qui Boostera Votre Entreprise"}
+              description={"Découvrez Comm'une Opportunité, la plateforme de mise en relation"}
+            />
+          </div>
+          <div className={styles["second-bloc"]}>
+            <CountAccomplishment number={1532} desc={"Entreprises enregistrées"} />
+          </div>
+        </div>
       </header>
     </>
   );
