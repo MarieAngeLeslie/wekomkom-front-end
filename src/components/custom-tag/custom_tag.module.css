@@ -1,0 +1,10 @@
+.tag-desc {
+    padding: 10px 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    transform: rotate(-2.8deg);
+    display: inline-block;
+    border-radius: 15px;
+}
+

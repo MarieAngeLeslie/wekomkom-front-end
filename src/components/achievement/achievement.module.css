@@ -1,0 +1,20 @@
+.main {
+    padding: 16px 16px 32px 16px;
+    border-radius: 15px;
+    width: 13.375rem;
+    box-shadow: 2px 2px 5px #eff3f4;
+    border: 1px solid #e6ebee;
+}
+
+.main .achievement-number {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #0958A5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main .desc {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8126rem;
+}

@@ -1,0 +1,11 @@
+.checked-main-bloc {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.checked-main-bloc p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
