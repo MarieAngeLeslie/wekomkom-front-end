@@ -6,6 +6,7 @@
   align-items: flex-end;
   z-index: 1;
   position: relative;
+  margin-top: 220px;
 }
 
 .first-side,
@@ -334,7 +335,7 @@
 
 .third-main-bloc .shop-bloc {
   height: auto;
-  width: 64rem;
+  width: 80%;
   background: #FFF;
   border-radius: 20px;
   padding: 40px 20px;
@@ -352,7 +353,7 @@
 }
 
 .third-main-bloc .shop-bloc .second-side h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
   color: #0958A5;

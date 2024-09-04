@@ -1,7 +1,51 @@
 .nav {
     height: 100px;
-    background: rgba(6, 31, 255, 0.815);
+    background: #FFFFFF;
     width: 100%;
     margin-bottom: 80px;
+    border-bottom: 1px solid #e9e8e9;
+    padding: 30px 190px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
+.nav .first-side {
+    display: flex;
+    align-items: center;
+    gap: 66px;
+}
+
+.nav .first-side ul {
+    display: flex;
+    gap: 50px;
+}
+
+.nav .first-side ul li {
+    list-style-type: none;
+    color: #93979a;
+    font-size: .875rem;
+}
+
+.nav .second-side {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.nav .second-side .profil-bloc {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.nav .second-side .profil-bloc .bottom-chevron {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
