@@ -123,3 +123,23 @@ export const SmallUniverseIcon = () => {
 
     )
 }
+
+export const ArrowIcon = () => {
+    return (
+        <svg width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.119 5.50885L1.45897 5.50885" stroke="#006AA3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M13.3452 0.748867L18.4589 5.33888L13.3452 9.92889" stroke="#006AA3" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+    )
+}
+
+export const StaticDotIcon = () => {
+    return (
+        <svg width="63" height="11" viewBox="0 0 63 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.884155" width="30" height="10" rx="5" fill="#0958A5" />
+            <rect x="36.5" y="0.884155" width="10" height="10" rx="5" fill="#E7EBEF" />
+            <rect x="52.5" y="0.884155" width="10" height="10" rx="5" fill="#E7EBEF" />
+        </svg>
+
+    )
+}

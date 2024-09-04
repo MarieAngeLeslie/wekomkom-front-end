@@ -1,7 +1,7 @@
 import styles from '../styles/page.module.css';
 import CallToActionBtnWithBg from '../components/call-to-action-btn-with-bg/CallToActionBtnWithBg';
 import CallToActionBtn from '../components/call-to-action-btn/CallToActionBtn';
-import { PlayIcon, SpecialDesignIcon, WekomkomIcon, PropulsorIcon, SmallUniverseIcon } from '../images/svg/svgIcon';
+import { PlayIcon, StaticDotIcon, SpecialDesignIcon, WekomkomIcon, PropulsorIcon, SmallUniverseIcon, ArrowIcon } from '../images/svg/svgIcon';
 import AttractivePresentation from '../components/attractive-presentation/AttractivePresentation'
 import PresentationUi from '../ui/presentation-ui/PresentationUi';
 import CountAccomplishment from '../components/count-accomplishment/CountAccomplishment';
@@ -11,6 +11,7 @@ import CustomTag from '../components/custom-tag/CustomTag';
 import Benefit from '../components/benefit/Benefit';
 import Achievement from '../components/achievement/Achievement';
 import PresentationWithFilligrane from '../components/presentation-with-filigrane/PresentationWithFilligrane';
+import Image from 'next/image'
 
 const opportunities = [
   {
@@ -122,7 +123,7 @@ export default function Home() {
       </header>
       <div className={styles["vector-shape-bloc"]}>
       </div>
-      <section className={styles["second-main-block"]}>
+      <section className={styles["second-main-bloc"]}>
         <div className={styles["title-bloc"]}>
           <CustomTag tagTitle={"Entreprise"} tagTextColor={"#226ba2"} tagBgColor={"#d5f1fd"} />
           <h1>Lancer votre entreprise et bénéficier d’un écosystème de qualité. </h1>
@@ -198,6 +199,32 @@ export default function Home() {
           </div>
 
         </div>
+      </section>
+      <section className={styles["third-main-bloc"]}>
+        <header>
+          <CustomTag tagTitle={"Accessibilité"} tagTextColor={"#357d6a"} tagBgColor={"#a4f4e7"} />
+          <h1 className={styles["title"]} >Une <span className={styles["special_title_style"]}>expérience</span> unique de l'écosystème entrepreneurial</h1>
+        </header>
+        <div className={styles["shop-bloc"]}>
+          <div className={styles["first-side"]}>
+            <Image
+              src={'/nice_img_4.png'}
+              fill={true}
+              alt={"concree shop"}
+            />
+          </div>
+          <div className={styles["second-side"]}>
+            <h1>Boutique d'Accompagnement</h1>
+            <p>La Boutique d'Accompagnement de Wekomkom est votre guichet unique pour accéder à une gamme complète de services et de ressources conçus pour propulser votre entreprise.</p>
+            <div className={styles["shop-btn-bloc"]}>
+              <CallToActionBtn link={""} description="Découvrir" icon={<ArrowIcon />} />
+            </div>
+            <div className={styles["static-dot"]}>
+              <StaticDotIcon />
+            </div>
+          </div>
+        </div>
+
       </section>
     </>
   );
