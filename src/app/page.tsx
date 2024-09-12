@@ -10,8 +10,17 @@ import PubUI from '../components/pub-ui/PubUI';
 import CustomTag from '../components/custom-tag/CustomTag';
 import Benefit from '../components/benefit/Benefit';
 import Achievement from '../components/achievement/Achievement';
+import Partner from '../components/partner-component/Partner';
 import PresentationWithFilligrane from '../components/presentation-with-filigrane/PresentationWithFilligrane';
 import Image from 'next/image'
+import CallToActionDiscoverBtn from '../ui/Call-to-action/CallToActionDiscoverBtn';
+import partner1Img from '../../public/partner-logos/partner1.png'
+import partner2Img from '../../public/partner-logos/partner2.png'
+import partner3Img from '../../public/partner-logos/partner3.png'
+import partner4Img from '../../public/partner-logos/partner4.png'
+import partner5Img from '../../public/partner-logos/partner5.png'
+import partner6Img from '../../public/partner-logos/partner6.png'
+
 
 const opportunities = [
   {
@@ -60,6 +69,87 @@ const achievements_2 = [
     number: 75,
     title: "Structures d'accompagnement",
   }
+];
+
+const achievements_3 = [
+  {
+    id: '1',
+    number: 1532,
+    title: 'Entreprises enregistrées',
+  },
+  {
+    id: '2',
+    number: 75,
+    title: "Structures d’accompagnements",
+  },
+  {
+    id: '3',
+    number: 10,
+    title: "Partenaires techniques et financiers",
+  },
+  {
+    id: '4',
+    number: 148,
+    title: 'Offres crées',
+  },
+  {
+    id: '5',
+    number: 762,
+    title: "Opportunités partagées",
+  },
+  {
+    id: '6',
+    number: 162,
+    title: "Demandes d’accompagnement",
+  }
+];
+
+const offers = [
+  {
+    id: '1',
+    title: 'Création d’offres illimitées',
+  },
+  {
+    id: '2',
+    title: 'Publication de vos offres et opportunités',
+  },
+  {
+    id: '3',
+    title: 'Mise en place et gestion de votre équipe d’accompagnement',
+  },
+  {
+    id: '4',
+    title: 'Tracking et reporting de vos accompagnements',
+  }
+];
+
+
+const partners = [
+  {
+    id: '1',
+    img: partner1Img,
+  },
+  {
+    id: '2',
+    img: partner2Img,
+  },
+  {
+    id: '3',
+    img: partner3Img,
+  },
+  {
+    id: '4',
+    img: partner4Img,
+  },
+  {
+    id: '5',
+    img: partner5Img,
+  },
+  {
+    id: '6',
+    img: partner6Img,
+  },
+
 ];
 
 export default function Home() {
@@ -153,7 +243,6 @@ export default function Home() {
             <div className={styles["left-block"]}>
               <div className={styles["top-block"]}>
                 <h1>Un écosystème diversifié vous offrant un cadre idéal.</h1>
-
               </div>
               <div className={styles["achievement-presentation-block"]}>
                 <div className={styles["achievement-presentation-small-block"]}>
@@ -189,7 +278,7 @@ export default function Home() {
           <div className={styles["icon3"]}>
             <SmallUniverseIcon />
           </div>
-          <div className={styles["main-block"]}>
+          <div className={`${styles["main-block"]} ${styles["borders-style"]}`}>
             <h1>Prêt à vous lancer ?</h1>
             <p>
               Créez votre entreprise maintenant et profitez de toutes
@@ -230,9 +319,70 @@ export default function Home() {
 
       </section>
 
-      <section className={styles["-main-block"]}>
-
+      <section className={styles["fourth-main-block"]}>
+        <div className={styles["first-block"]}>
+          <CustomTag tagTitle={"Structure d'accompagnement"} tagTextColor={"#333e49"} tagBgColor={"#f4c691"} />
+          <h1>Digitalisez et promouvez vos offres d’accompagnement </h1>
+          <p>Accédez à une vaste communauté de porteurs de projets, d'entreprises et de partenaires d'appui. Créez et gérez des offres de services
+            sur mesure, et suivez vos prestations étape par étape en toute simplicité.</p>
+        </div>
+        <div className={`${styles["second-block"]}`}>
+          <div className={`${styles["first-row"]}`}>
+            <div className={`${styles["block-1"]} ${styles["borders-style"]}`}>
+              <h1>Gestion simplifiée et partagée de votre structure</h1>
+              {offers.map((opportunity) => (
+                <div key={opportunity.id} style={{ marginBottom: 12, width: '22rem' }}>
+                  <Benefit description={opportunity.title} />
+                </div>
+              ))}
+            </div>
+            <div className={`${styles["block-2"]} ${styles["borders-style"]}`}>
+              <div className={styles["part-1"]}>
+                <h1>Parmis les structures déjà présente sur Wekomkom</h1>
+                <SpecialDesignIcon />
+              </div>
+              <div className={styles["part-2"]}>
+                {partners.map((partner) => (
+                  <Partner key={partner.id} imgSrc={partner.img} altInfo={"Impact HUB Dakar"} />
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className={`${styles["second-row"]}`}>
+            <div className={`${styles["block-1"]} ${styles["borders-style"]}`}>
+              <h1>Votre Plateforme <span className={styles["design-wekomkom"]}>WEKOMKOM</span> c'est plus de : </h1>
+              <div className={styles["achievement-block"]} >
+                {achievements_3.map((achievement) => (<div className={styles["achievement-small-container"]}><Achievement key={achievement.id} achievementNumber={achievement.number} desc={achievement.title} /></div>))}
+              </div>
+            </div>
+            <div className={`${styles["block-2"]} ${styles["borders-style"]}`}>
+              <Image
+                src="/work-together.png"
+                width={270}
+                height={250}
+                alt="Picture of the author"
+              />
+              <div className={styles["create-botton-block"]}>
+                <CallToActionDiscoverBtn link={""} description="Créer votre structure maintenant" icon={<ArrowIcon />} />
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+      <br />
+      <br />
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br /> <br />
+      <br />
+      <br />
+      <br />
+
     </>
   );
 }

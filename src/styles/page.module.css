@@ -18,6 +18,11 @@
   gap: 32px;
 }
 
+.borders-style {
+  border: 1px solid #9eacb7;
+  border-radius: 20px;
+}
+
 .first-side .first-block,
 .third-side .first-block {
   width: 100%;
@@ -161,6 +166,10 @@
   height: 100%;
   border: 1px solid #9eacb7;
   border-radius: 20px;
+}
+
+.borders-style {
+  border: 1px solid #9eacb7;
 }
 
 .second-main-block .second-big-block .first-row .left-block {
@@ -381,4 +390,143 @@
 .third-main-block .shop-block .second-side .static-dot {
   position: absolute;
   bottom: 19px;
+}
+
+.fourth-main-block {
+  margin: 9.37rem auto 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fcfcfc8e;
+}
+
+.fourth-main-block .first-block {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fourth-main-block .first-block h1 {
+  margin: 12px 0;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.fourth-main-block .first-block p {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #303B4C;
+}
+
+.fourth-main-block .second-block {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.fourth-main-block .second-block .first-row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 32px;
+}
+
+.fourth-main-block .second-block .first-row .block-1 {
+  max-width: 40%;
+  padding: 30px;
+  background: white;
+}
+
+.fourth-main-block .second-block .first-row .block-2 {
+  max-width: 60%;
+  padding: 0 30px 30px;
+  background: white;
+}
+
+.fourth-main-block .second-block .first-row .block-1 h1 {
+  margin-bottom: 28px;
+
+}
+
+.fourth-main-block .second-block .first-row .block-2 .part-1 h1 {
+  width: 30rem;
+  margin-top: 30px;
+}
+
+.fourth-main-block .second-block .first-row .block-2 .part-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-main-block .second-block .first-row .block-2 .part-2 {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+.fourth-main-block .second-block .second-row {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+.fourth-main-block .second-block .second-row .block-1 {
+  max-width: 70%;
+  padding: 30px;
+  background: #FFFFFF;
+}
+
+.fourth-main-block .second-block .second-row .block-2 {
+  flex: 1;
+  padding: 30px;
+  background: #FFFFFF;
+}
+
+.fourth-main-block .second-block .second-row .block-1 h1 {
+  width: 26rem;
+}
+
+.fourth-main-block .second-block .second-row .block-1 span {
+  position: relative;
+}
+
+.fourth-main-block .second-block .second-row .block-1 span::after {
+  content: '';
+  position: absolute;
+  background: url('../images/underline-wekomkom.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10px;
+  bottom: -10px;
+  left: 0;
+}
+
+.fourth-main-block .second-block .second-row .block-1 .achievement-block {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 35px;
+}
+
+.fourth-main-block .second-block .second-row .block-1 .achievement-block .achievement-small-container {
+  width: 14rem;
+}
+
+.fourth-main-block .second-block .second-row .block-2 {
+  background: linear-gradient(90deg, #2b7182, #409253);
+  position: relative;
+}
+
+.fourth-main-block .second-block .second-row .block-2 .create-botton-block {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -2,13 +2,14 @@
     padding: 0.75rem 1.5rem;
     border-radius: 20px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: .9rem;
+    font-weight: 400;
     color: #0958A5;
-    border: 1px solid #0958A5;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: white;
+    width: 15rem;
 }
 
 .icon {

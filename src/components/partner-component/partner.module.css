@@ -1,0 +1,11 @@
+.main-block {
+    border: 2px solid #f0f5f6;
+    border-radius: 20px;
+    width: 12rem;
+    height: 5.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
