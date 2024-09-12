@@ -18,8 +18,8 @@
   gap: 32px;
 }
 
-.first-side .first-bloc,
-.third-side .first-bloc {
+.first-side .first-block,
+.third-side .first-block {
   width: 100%;
   height: 19.5rem;
   background: #E7EBEF;
@@ -28,8 +28,8 @@
   padding: 16px 12px;
 }
 
-.first-side .second-bloc,
-.third-side .second-bloc {
+.first-side .second-block,
+.third-side .second-block {
   width: 100%;
   height: 9.0625rem;
   border-radius: 20px;
@@ -38,7 +38,7 @@
 
 
 
-.first-side .second-bloc .main-side {
+.first-side .second-block .main-side {
   width: 70%;
 }
 
@@ -47,12 +47,12 @@
   margin: 0 auto;
 }
 
-.description-and-btn-bloc {
+.description-and-btn-block {
   margin: 0.745rem auto 0 auto;
   width: 80%;
 }
 
-.btn-bloc {
+.btn-block {
   margin-top: 32px;
   display: flex;
   justify-content: center;
@@ -104,7 +104,7 @@
 
 /* END HEADER SECTION STYLE */
 
-.vector-shape-bloc {
+.vector-shape-block {
   width: 100%;
   height: 30rem;
   background: url('../images/background-vector.png') no-repeat center;
@@ -113,16 +113,16 @@
   z-index: -1;
 }
 
-/* END VECTOR SHAPE STYLE BLOC */
+/* END VECTOR SHAPE STYLE block */
 
-.second-main-bloc {
+.second-main-block {
   width: 75%;
   margin: -10.75rem auto 0 auto;
   height: 100rem;
 }
 
 
-.second-main-bloc .title-bloc {
+.second-main-block .title-block {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -130,7 +130,7 @@
   align-items: center;
 }
 
-.second-main-bloc .title-bloc h1 {
+.second-main-block .title-block h1 {
   font-size: 2.5rem;
   font-weight: 800;
   font-family: "Open Sans", sans-serif;
@@ -138,32 +138,32 @@
   color: #262D38;
 }
 
-.second-main-bloc .second-big-bloc .first-row,
-.second-main-bloc .second-big-bloc .second-row {
+.second-main-block .second-big-block .first-row,
+.second-main-block .second-big-block .second-row {
   height: 25rem;
   width: 100%;
   display: flex;
   gap: 24px;
 }
 
-.second-main-bloc .second-big-bloc .first-row {
+.second-main-block .second-big-block .first-row {
   margin-top: 50px;
 }
 
-.second-main-bloc .second-big-bloc .second-row {
+.second-main-block .second-big-block .second-row {
   margin-top: 24px;
 }
 
-.second-main-bloc .second-big-bloc .first-row .left-bloc,
-.second-main-bloc .second-big-bloc .first-row .right-bloc,
-.second-main-bloc .second-big-bloc .second-row .left-bloc,
-.second-main-bloc .second-big-bloc .second-row .right-bloc {
+.second-main-block .second-big-block .first-row .left-block,
+.second-main-block .second-big-block .first-row .right-block,
+.second-main-block .second-big-block .second-row .left-block,
+.second-main-block .second-big-block .second-row .right-block {
   height: 100%;
   border: 1px solid #9eacb7;
   border-radius: 20px;
 }
 
-.second-main-bloc .second-big-bloc .first-row .left-bloc {
+.second-main-block .second-big-block .first-row .left-block {
   position: relative;
   width: 55%;
   display: flex;
@@ -171,39 +171,39 @@
   align-items: center;
 }
 
-.second-main-bloc .second-big-bloc .first-row .right-bloc {
+.second-main-block .second-big-block .first-row .right-block {
   flex: 1;
   padding: 30px 30px 30px 30px;
 }
 
-.second-main-bloc .second-big-bloc .second-row .left-bloc {
+.second-main-block .second-big-block .second-row .left-block {
   flex: 1;
   padding: 30px;
 }
 
-.second-main-bloc .second-big-bloc .second-row .right-bloc {
+.second-main-block .second-big-block .second-row .right-block {
   width: 55%;
   padding: 30px 30px 15px 30px;
 }
 
-.second-main-bloc .second-big-bloc .first-row h1 {
+.second-main-block .second-big-block .first-row h1 {
   font-weight: 700;
   font-size: 1.625rem;
   font-family: "Open Sans", sans-serif;
   color: #262D38;
 }
 
-.second-main-bloc .second-big-bloc .first-row .left-bloc .top-bloc h1 {
+.second-main-block .second-big-block .first-row .left-block .top-block h1 {
   margin-top: 30px;
   width: 22rem;
 }
 
-.second-main-bloc .second-big-bloc .first-row .right-bloc h1 {
+.second-main-block .second-big-block .first-row .right-block h1 {
   width: 26rem;
   margin-bottom: 18px;
 }
 
-.second-main-bloc .second-big-bloc .first-row .left-bloc .img-presentation-bloc {
+.second-main-block .second-big-block .first-row .left-block .img-presentation-block {
   position: absolute;
   width: 80%;
   height: 17rem;
@@ -214,18 +214,18 @@
   background: url('../images/entreprise.png') no-repeat center;
 }
 
-.second-row .left-bloc .achievement-presentation-bloc .achievement-presentation-small-bloc {
+.second-row .left-block .achievement-presentation-block .achievement-presentation-small-block {
   margin-top: 18px;
   display: flex;
   gap: 24px;
 }
 
-.second-main-bloc .second-big-bloc .second-row .right-bloc {
+.second-main-block .second-big-block .second-row .right-block {
   display: flex;
   gap: 20px;
 }
 
-.second-main-bloc .second-big-bloc .second-row .right-bloc .cluster-small-bloc-design .small-bloc-design {
+.second-main-block .second-big-block .second-row .right-block .cluster-small-block-design .small-block-design {
   width: 16rem;
   height: 10rem;
   /* border: 1px solid #9eacb7; */
@@ -233,20 +233,20 @@
   overflow: hidden;
 }
 
-.second-main-bloc .second-big-bloc .second-row .right-bloc .cluster-small-bloc-design {
+.second-main-block .second-big-block .second-row .right-block .cluster-small-block-design {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.second-main-bloc .second-big-bloc .second-row .right-bloc .right-one-main-bloc {
+.second-main-block .second-big-block .second-row .right-block .right-one-main-block {
   /* border: 1px solid #9eacb7; */
   width: 13rem;
   border-radius: 20px;
   overflow: hidden;
 }
 
-.second-main-bloc .last-bloc {
+.second-main-block .last-block {
   border: 1px solid #9eacb7;
   height: 30rem;
   width: 100%;
@@ -254,7 +254,7 @@
   background: url('../images/background-vector.png') no-repeat bottom;
 }
 
-.last-bloc {
+.last-block {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,11 +262,11 @@
   margin-top: 24px;
 }
 
-.last-bloc .main-bloc {
+.last-block .main-block {
   width: 26.5rem;
 }
 
-.last-bloc .main-bloc h1 {
+.last-block .main-block h1 {
   text-align: center;
   background-clip: text;
   color: transparent;
@@ -277,7 +277,7 @@
   margin-bottom: 8px;
 }
 
-.last-bloc .main-bloc p {
+.last-block .main-block p {
   font-size: 1rem;
   text-align: center;
   font-family: "Open Sans", sans-serif;
@@ -285,27 +285,27 @@
   line-height: 1.6rem;
 }
 
-.last-bloc .icon1 {
+.last-block .icon1 {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
-.last-bloc .icon2 {
+.last-block .icon2 {
   position: absolute;
   bottom: 24px;
   left: 34px;
 }
 
-.last-bloc .icon3 {
+.last-block .icon3 {
   position: absolute;
   right: 40px;
   top: 47px;
 }
 
-/* END SECOND MAIN BLOCK STYLE */
+/* END SECOND MAIN blockK STYLE */
 
-.third-main-bloc {
+.third-main-block {
   padding: 100px;
   background: #cedfec;
   width: 100%;
@@ -316,7 +316,7 @@
   position: relative;
 }
 
-.third-main-bloc header {
+.third-main-block header {
   width: 50rem;
   display: flex;
   flex-direction: column;
@@ -324,16 +324,16 @@
   position: relative;
 }
 
-.third-main-bloc .special_title_style {
+.third-main-block .special_title_style {
   color: #006AA3;
 }
 
-.third-main-bloc header .title {
+.third-main-block header .title {
   padding: 42px 23px 0px 23px;
   border-radius: 20px;
 }
 
-.third-main-bloc .shop-bloc {
+.third-main-block .shop-block {
   height: auto;
   width: 80%;
   background: #FFF;
@@ -346,13 +346,13 @@
   position: relative;
 }
 
-.third-main-bloc .shop-bloc .first-side {
+.third-main-block .shop-block .first-side {
   position: relative;
   width: 30rem;
   height: 26rem;
 }
 
-.third-main-bloc .shop-bloc .second-side h1 {
+.third-main-block .shop-block .second-side h1 {
   font-size: 1.6rem;
   font-weight: 800;
   font-family: 'Open Sans', sans-serif;
@@ -360,12 +360,12 @@
   margin-bottom: 12px;
 }
 
-.third-main-bloc .shop-bloc .second-side {
+.third-main-block .shop-block .second-side {
   flex: 1;
   margin: 58px 0 58px 50px;
 }
 
-.third-main-bloc .shop-bloc .second-side p {
+.third-main-block .shop-block .second-side p {
   font-size: 1.25rem;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
@@ -374,11 +374,11 @@
   margin-bottom: 40px;
 }
 
-.third-main-bloc .shop-bloc .second-side .shop-btn-bloc {
+.third-main-block .shop-block .second-side .shop-btn-block {
   width: 9rem;
 }
 
-.third-main-bloc .shop-bloc .second-side .static-dot {
+.third-main-block .shop-block .second-side .static-dot {
   position: absolute;
   bottom: 19px;
 }

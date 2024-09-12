@@ -1,17 +1,17 @@
-.main-bloc {
+.main-block {
     background: #fff;
     border-radius: 20px;
     overflow: hidden;
     height: 100%;
 }
 
-.main-bloc .first-side {
+.main-block .first-side {
     position: relative;
     width: 100%;
     height: 7.625rem;
 }
 
-.main-bloc .tag-bloc {
+.main-block .tag-block {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -19,17 +19,17 @@
     height: 1.75rem;
 }
 
-.main-bloc .second-bloc {
+.main-block .second-block {
     margin: 11px 11px 0 11px;
 }
 
-.main-bloc .second-bloc .title {
+.main-block .second-block .title {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.75rem;
     font-weight: 700;
 }
 
-.main-bloc .second-bloc .desc {
+.main-block .second-block .desc {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.875rem;
     line-height: 1.1875rem;
@@ -37,7 +37,7 @@
     margin-top: 3px;
 }
 
-.main-bloc .second-bloc .last-bloc {
+.main-block .second-block .last-block {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -45,7 +45,7 @@
     margin-top: 11px;
 }
 
-.main-bloc .second-bloc .last-bloc .price-style {
+.main-block .second-block .last-block .price-style {
     padding: 7px;
     border-radius: 8;
     font-family: 'Open Sans', sans-serif;
@@ -58,7 +58,7 @@
     align-items: center;
 }
 
-.main-bloc .second-bloc .last-bloc .concree-name {
+.main-block .second-block .last-block .concree-name {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.7625rem;
 }

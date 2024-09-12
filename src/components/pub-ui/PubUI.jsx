@@ -9,7 +9,7 @@ export default function PubUI({
     description,
     tagTitle }) {
     return (
-        <div className={styles["main-bloc"]}>
+        <div className={styles["main-block"]}>
             <div className={styles["first-side"]}>
                 <Image
                     src={mainImageSrc}
@@ -19,13 +19,13 @@ export default function PubUI({
                 />
             </div>
 
-            <div className={styles["second-bloc"]}>
-                <div className={styles["tag-bloc"]}>
+            <div className={styles["second-block"]}>
+                <div className={styles["tag-block"]}>
                     <SimpleTag simpleTagTitle={tagTitle} />
                 </div>
                 <p className={styles["title"]}>{title}</p>
                 <p className={styles["desc"]}>{description}</p>
-                <div className={styles["last-bloc"]}>
+                <div className={styles["last-block"]}>
                     <Image
                         src={"/logo.jpg"}
                         width={35}

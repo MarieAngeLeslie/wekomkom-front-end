@@ -68,7 +68,7 @@ export default function Home() {
     <>
       <header className={styles.header}>
         <div className={styles["first-side"]}>
-          <div className={styles["first-bloc"]}>
+          <div className={styles["first-block"]}>
             <AvailableOffer
               tagTitle={"Bon d'accompagnement"}
               mainImageSrc={"/offer-img.png"}
@@ -78,18 +78,18 @@ export default function Home() {
             />
 
           </div>
-          <div className={styles["second-bloc"]}>
+          <div className={styles["second-block"]}>
             <CountAccomplishment number={45} desc={"Offres d’accompagnement"} />
           </div>
         </div>
         <div className={styles["main-side"]}>
           <div className={styles["first-part"]}>
             <h1 className={styles["title"]}>La plateforme qui vous aide à développer votre <span className={styles["special-title-style"]}>entreprise</span> </h1>
-            <div className={styles["description-and-btn-bloc"]}>
+            <div className={styles["description-and-btn-block"]}>
               <p className={styles["description"]}>Bienvenue sur Wekomkom, votre carrefour de succès entrepreneurial.
                 Trouvez les meilleures opportunités pour votre entreprise et connectez-vous
                 avec des mentors, des investisseurs et des partenaires potentiels.</p>
-              <div className={styles["btn-bloc"]}>
+              <div className={styles["btn-block"]}>
                 <CallToActionBtnWithBg link={""} description="Trouver une opportunité" />
                 <CallToActionBtn link={""} description="Découvrir en vidéo" icon={<PlayIcon />} />
               </div>
@@ -108,7 +108,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles["third-side"]}>
-          <div className={styles["first-bloc"]}>
+          <div className={styles["first-block"]}>
             <PubUI
               tagTitle={"Bon d'accompagnement"}
               mainImageSrc={"/pub-img.jpg"}
@@ -116,29 +116,31 @@ export default function Home() {
               description={"Découvrez Comm'une Opportunité, la plateforme de mise en relation"}
             />
           </div>
-          <div className={styles["second-bloc"]}>
+          <div className={styles["second-block"]}>
             <CountAccomplishment number={1532} desc={"Entreprises enregistrées"} />
           </div>
         </div>
       </header>
-      <div className={styles["vector-shape-bloc"]}>
+
+      <div className={styles["vector-shape-block"]}>
       </div>
-      <section className={styles["second-main-bloc"]}>
-        <div className={styles["title-bloc"]}>
+
+      <section className={styles["second-main-block"]}>
+        <div className={styles["title-block"]}>
           <CustomTag tagTitle={"Entreprise"} tagTextColor={"#226ba2"} tagBgColor={"#d5f1fd"} />
           <h1>Lancer votre entreprise et bénéficier d’un écosystème de qualité. </h1>
         </div>
-        <div className={styles["second-big-bloc"]}>
+        <div className={styles["second-big-block"]}>
           <div className={styles["first-row"]}>
-            <div className={styles["left-bloc"]}>
-              <div className={styles["top-bloc"]}>
+            <div className={styles["left-block"]}>
+              <div className={styles["top-block"]}>
                 <h1>Une vitrine attractive pour votre business !</h1>
                 <SpecialDesignIcon />
               </div>
-              <div className={styles["img-presentation-bloc"]}>
+              <div className={styles["img-presentation-block"]}>
               </div>
             </div>
-            <div className={styles["right-bloc"]}>
+            <div className={styles["right-block"]}>
               <h1>Des opportunités inédites pour votre entreprise !</h1>
               {opportunities.map((opportunity) => (
                 <div key={opportunity.id} style={{ marginBottom: 12, width: '22rem' }}>
@@ -148,36 +150,36 @@ export default function Home() {
             </div>
           </div>
           <div className={styles["second-row"]}>
-            <div className={styles["left-bloc"]}>
-              <div className={styles["top-bloc"]}>
+            <div className={styles["left-block"]}>
+              <div className={styles["top-block"]}>
                 <h1>Un écosystème diversifié vous offrant un cadre idéal.</h1>
 
               </div>
-              <div className={styles["achievement-presentation-bloc"]}>
-                <div className={styles["achievement-presentation-small-bloc"]}>
+              <div className={styles["achievement-presentation-block"]}>
+                <div className={styles["achievement-presentation-small-block"]}>
                   {achievements_1.map((achievement) => (<Achievement key={achievement.id} achievementNumber={achievement.number} desc={achievement.title} />))}
                 </div>
-                <div className={styles["achievement-presentation-small-bloc"]}>
+                <div className={styles["achievement-presentation-small-block"]}>
                   {achievements_2.map((achievement) => (<Achievement key={achievement.id} achievementNumber={achievement.number} desc={achievement.title} />))}
                 </div>
               </div>
             </div>
-            <div className={styles["right-bloc"]}>
-              <div className={styles["cluster-small-bloc-design"]}>
-                <div className={styles["small-bloc-design"]}>
+            <div className={styles["right-block"]}>
+              <div className={styles["cluster-small-block-design"]}>
+                <div className={styles["small-block-design"]}>
                   <PresentationWithFilligrane imageSrc={'/nice_img_1.png'} desc={'Etudiant, Professionnel'} alt={"Etudiant, Professionnel"} />
                 </div>
-                <div className={styles["small-bloc-design"]}>
+                <div className={styles["small-block-design"]}>
                   <PresentationWithFilligrane imageSrc={'/nice_img_2.jpg'} desc={'Entreprise, Start-up, GIE'} alt={"Entreprise, Start-up, GIE"} />
                 </div>
               </div>
-              <div className={styles["right-one-main-bloc"]}>
+              <div className={styles["right-one-main-block"]}>
                 <PresentationWithFilligrane imageSrc={'/nice_img_3.png'} desc={'Porteur de projet'} alt={"Porteur de projet"} />
               </div>
             </div>
           </div>
         </div>
-        <div className={styles["last-bloc"]}>
+        <div className={styles["last-block"]}>
           <div className={styles["icon1"]}>
             <WekomkomIcon />
           </div>
@@ -187,25 +189,26 @@ export default function Home() {
           <div className={styles["icon3"]}>
             <SmallUniverseIcon />
           </div>
-          <div className={styles["main-bloc"]}>
+          <div className={styles["main-block"]}>
             <h1>Prêt à vous lancer ?</h1>
             <p>
               Créez votre entreprise maintenant et profitez de toutes
               les opportunités qu’offre WEKOMKOM
             </p>
-            <div className={styles["btn-bloc"]}>
+            <div className={styles["btn-block"]}>
               <CallToActionBtnWithBg link={""} description="Créer votre entreprise maintenant" />
             </div>
           </div>
 
         </div>
       </section>
-      <section className={styles["third-main-bloc"]}>
+
+      <section className={styles["third-main-block"]}>
         <header>
           <CustomTag tagTitle={"Accessibilité"} tagTextColor={"#357d6a"} tagBgColor={"#a4f4e7"} />
           <h1 className={styles["title"]} >Une <span className={styles["special_title_style"]}>expérience</span> unique de l'écosystème entrepreneurial</h1>
         </header>
-        <div className={styles["shop-bloc"]}>
+        <div className={styles["shop-block"]}>
           <div className={styles["first-side"]}>
             <Image
               src={'/nice_img_4.png'}
@@ -216,7 +219,7 @@ export default function Home() {
           <div className={styles["second-side"]}>
             <h1>Boutique d'Accompagnement</h1>
             <p>La Boutique d'Accompagnement de Wekomkom est votre guichet unique pour accéder à une gamme complète de services et de ressources conçus pour propulser votre entreprise.</p>
-            <div className={styles["shop-btn-bloc"]}>
+            <div className={styles["shop-btn-block"]}>
               <CallToActionBtn link={""} description="Découvrir" icon={<ArrowIcon />} />
             </div>
             <div className={styles["static-dot"]}>
@@ -224,6 +227,10 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+      </section>
+
+      <section className={styles["-main-block"]}>
 
       </section>
     </>

@@ -41,7 +41,7 @@ export default function RootLayout({
           <div className={styles["second-side"]}>
             <MsgIcon />
             <BellIcon />
-            <div className={styles["profil-bloc"]} >
+            <div className={styles["profil-block"]} >
               <Image
                 src={'/happy-woman-profil.jpg'}
                 alt="Picture of the author"

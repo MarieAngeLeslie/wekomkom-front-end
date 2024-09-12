@@ -36,7 +36,7 @@
     gap: 14px;
 }
 
-.nav .second-side .profil-bloc {
+.nav .second-side .profil-block {
     position: relative;
     width: 32px;
     height: 32px;
@@ -44,7 +44,7 @@
     border-radius: 50%;
 }
 
-.nav .second-side .profil-bloc .bottom-chevron {
+.nav .second-side .profil-block .bottom-chevron {
     position: absolute;
     bottom: 0;
     right: 0;

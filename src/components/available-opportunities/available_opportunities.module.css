@@ -7,7 +7,7 @@
     border-radius: 20px;
 }
 
-.main .img_bloc {
+.main .img_block {
     position: 'relative';
     width: 160px;
     height: 140px;
@@ -16,33 +16,33 @@
 
 }
 
-.main .opportunities_description_bloc {
+.main .opportunities_description_block {
     margin: 6px;
 }
 
-.main .opportunities_description_bloc .author {
+.main .opportunities_description_block .author {
     margin-bottom: 19px;
 }
 
-.main .opportunities_description_bloc .author .p {
+.main .opportunities_description_block .author .p {
     font-size: 0.875rem;
     font-weight: 400;
     margin-left: 13px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.main .opportunities_description_bloc .description .h1 {
+.main .opportunities_description_block .description .h1 {
     font-size: 1.125rem;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: #0958A5;
 }
 
-.main .opportunities_description_bloc .description {
+.main .opportunities_description_block .description {
     margin-bottom: 12px;
 }
 
-.main .opportunities_description_bloc .infos {
+.main .opportunities_description_block .infos {
     display: flex;
     gap: 32px;
 }

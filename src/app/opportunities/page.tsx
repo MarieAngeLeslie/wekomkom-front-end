@@ -7,11 +7,11 @@ export default function Opportunites() {
     return (
         <main className={styles.main}>
             <div className={styles.banner}>
-                <div className={styles["left-bloc"]}>
+                <div className={styles["left-block"]}>
                     <h1>Accedez aux opportunités du moment sur wekomkom</h1>
                     <p>Plus de 100 opportunités pour vous!</p>
                 </div>
-                <div className={styles["right-bloc"]}>
+                <div className={styles["right-block"]}>
                     <Image
                         src={'/banner-img.png'}
                         alt="Picture of the author"
